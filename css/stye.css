@@ -7,8 +7,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.nav-bar{
-    padding: 0;
+.header-1{
+    top: 0%;
     position: fixed;
     width: 100%;
     box-shadow: 0px 5px 10px -5px rgb(41, 36, 36);
@@ -74,6 +74,7 @@ body{
 
 .banner{
     display: flex;
+    padding: 146px 0;
     margin: 200px 0;
     justify-content: space-evenly;
 
@@ -111,10 +112,33 @@ height: auto;
     padding: 196px 50px;
 }
 .demo-pictures{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 20px;
+  
 }
+.pic{
+width: 100%;
+height: 500px;
+/* background-color: red;
+object-fit: fill ; */
+}
+
+.pic img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: 1s;
+    display: inline-block;
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+
+}
+.demo-img{
+max-width: 100%;
+height: auto;
+
+}
+
 .stuning-demo{
     text-align: center;
 }
@@ -130,11 +154,7 @@ height: auto;
     font-family: 'PT Serif', serif;
     color: #8F8F8F;
 }
-.pic img{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    transition: 1s;
-    display: inline-block;
-}
+
 .pic img:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(7, 202, 236, 0.753) 0px 10px 10px;
     cursor: pointer;
@@ -142,19 +162,6 @@ height: auto;
     transition: 0.8s;
     display: inline-block;
 }
-.p1 img{
-    max-width: 100%;
-    height: 477px;
-}
-.p3 img{
-    max-width: 100%;
-    height: 477px;
-}
-.p4 img{
-    max-width: 100%;
-    height: 477px;
-}
-
 
 .pic{
     text-align: center;
